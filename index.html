@@ -1,0 +1,606 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Meet Marci Metzger, a Pahrump Realtor with nearly three decades of real estate experience." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Marci Metzger | Pahrump Realtor</title>
+  <link rel="preload" as="image" href="assets/images/background-mountain-falls-pond.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/site.css" />
+  <script src="src/main.js" defer></script>
+</head>
+
+<body class="m-0 min-h-screen bg-white font-sans antialiased">
+  <header class="site-header fixed inset-x-0 top-0 z-20">
+    <div class="flex min-h-[4.75rem] items-center justify-between gap-3 py-3 sm:min-h-[5.75rem] sm:gap-6 sm:py-4 px-8 sm:px-16">
+      <a class="brand-link flex min-w-0 items-center gap-2.5 sm:gap-4" href="#home"
+        aria-label="Marci Metzger · The Ridge Realty Group — home">
+        <span class="brand-mark shrink-0 rounded-md bg-white/95 px-1.5 py-1 shadow-sm sm:px-2 sm:py-1.5">
+          <img class="block h-auto w-[6.75rem]" src="assets/images/marci-metzger-logo.webp" alt="" width="2560"
+            height="798" />
+        </span>
+        <span class="brand-copy hidden min-w-0 text-sm lg:text-md leading-tight text-white sm:block">
+          <span>Marci Metzger</span>
+          <span aria-hidden="true"> · </span>
+          <span class="brand-group">The Ridge Realty Group</span>
+        </span>
+      </a>
+
+      <nav class="desktop-nav hidden items-center gap-5 text-md font-medium text-white xl:flex xl:gap-8"
+        aria-label="Primary navigation">
+        <a class="nav-link" href="#about">About Marci</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#home-search">Find a Home</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="phone-link inline-flex min-h-11 items-center justify-center rounded-full border border-white/80 px-5 font-semibold text-white"
+          href="tel:2069196886">Call Now <span class="ml-2 whitespace-nowrap">206-919-6886</span></a>
+      </nav>
+
+      <button
+        class="menu-toggle inline-flex size-11 shrink-0 items-center justify-center rounded-full border border-white/80 text-white xl:hidden"
+        type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open navigation menu">
+        <svg class="menu-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <nav class="mobile-menu site-container xl:hidden" id="mobile-menu" aria-label="Mobile navigation" hidden>
+      <div class="mobile-menu-panel ml-auto flex max-w-sm flex-col gap-1 rounded-2xl p-3">
+        <a class="mobile-nav-link" href="#about">About Marci</a>
+        <a class="mobile-nav-link" href="#services">Services</a>
+        <a class="mobile-nav-link" href="#home-search">Find a Home</a>
+        <a class="mobile-nav-link" href="#contact">Contact</a>
+        <a class="mobile-nav-phone mt-2 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-white px-5 font-semibold text-neutral-950"
+          href="tel:2069196886">Call Now · 206-919-6886</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero relative isolate flex min-h-svh items-center overflow-hidden text-white"
+      aria-labelledby="hero-title">
+      <img class="hero-image absolute inset-0 z-0 h-full w-full object-cover"
+        src="assets/images/background-mountain-falls-pond.webp" alt="" aria-hidden="true" width="2560" height="1700"
+        fetchpriority="high" decoding="async" />
+      <div class="hero-overlay absolute inset-0 z-10" aria-hidden="true"></div>
+
+      <div class="site-container hero-content relative z-20 w-full pb-12 pt-28 sm:pb-16 sm:pt-36">
+        <div class="hero-copy max-w-4xl">
+          <h1 id="hero-title"
+            class="m-0 max-w-4xl text-[clamp(2.25rem,10vw,7.5rem)] font-semibold leading-[0.98] tracking-[-0.04em] text-center text-white sm:text-left">
+            Pahrump Realtor
+          </h1>
+          <div class="hero-actions mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row items-center sm:gap-4">
+            <a class="action-primary inline-flex min-h-14 w-full max-w-[22rem] items-center justify-center rounded-full bg-white px-5 py-3 text-center text-sm font-semibold text-neutral-950 sm:w-auto sm:px-7 sm:text-base"
+              href="#home-search">
+              Find Your Dream Home
+              <svg class="ml-3" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <a class="action-secondary inline-flex min-h-14 w-full max-w-[22rem] items-center justify-center rounded-full border border-white/80 px-5 py-3 text-center text-sm font-semibold text-white sm:w-auto sm:px-7 sm:text-base"
+              href="tel:2069196886">
+              Call Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sales-section pb-20">
+      <div class="bg-white py-20 sm:py-24">
+        <div class="site-container">
+          <h2
+            class="section-heading">
+            Get It Sold
+          </h2>
+        </div>
+      </div>
+      <div class="guidance-grid">
+        <article class="guidance-card" tabindex="0" aria-labelledby="results-card-title">
+          <div class="guidance-card__media">
+            <img class="guidance-card__image" src="assets/images/service-stock-3395.webp" alt="" width="2560"
+              height="1383" loading="lazy" decoding="async">
+            <span class="guidance-card__label">Proven Results</span>
+          </div>
+          <div class="guidance-card__details">
+            <h3 id="results-card-title">Top Residential Sales Last 5 Years</h3>
+            <p>We helped nearly 90 clients in 2021, and closed $28.5 million in sales!</p>
+            <p>Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our
+              clients deserve our best, &amp; we want to make sure our best is better every year.</p>
+          </div>
+        </article>
+
+        <article class="guidance-card guidance-card--middle" tabindex="0" aria-labelledby="seller-card-title">
+          <div class="guidance-card__media">
+            <img class="guidance-card__image" src="assets/images/service-stock-107927.webp" alt="" width="1254"
+              height="836" loading="lazy" decoding="async">
+            <span class="guidance-card__label">For Sellers</span>
+          </div>
+          <div class="guidance-card__details">
+            <h3 id="seller-card-title">Don't Just List It...</h3>
+            <p>Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible
+              buyer, getting you top dollar for your home.</p>
+          </div>
+        </article>
+
+        <article class="guidance-card guidance-card--results" tabindex="0" aria-labelledby="buyer-card-title">
+          <div class="guidance-card__media">
+            <img class="guidance-card__image" src="assets/images/service-stock-771.webp" alt="" width="2160"
+              height="1440" loading="lazy" decoding="async">
+            <span class="guidance-card__label">For Buyers</span>
+          </div>
+          <div class="guidance-card__details">
+            <h3 id="buyer-card-title">Guide to Buyers</h3>
+            <p>Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists,
+              contractors on speed dial, &amp; more!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="site-container about-layout">
+        <div class="about-copy about-reveal">
+          <p class="about-kicker">Get to know</p>
+
+          <h2 class="about-title" id="about-title">MARCI METZGER</h2>
+
+          <p class="about-experience">Realtor for nearly three decades.</p>
+
+          <div class="about-body">
+            <p>
+              Marci Metzger and The Ridge Realty Group help clients navigate real
+              estate transactions and related market questions, drawing on local
+              market knowledge.
+            </p>
+
+            <p>
+              For buyers, support can include market analysis, upgrade lists, and
+              contractor contacts. For sellers, the team uses multiple marketing
+              avenues to put listings before prospective buyers.
+            </p>
+          </div>
+
+          <a class="about-call" href="tel:2069196886">Call Marci</a>
+        </div>
+        <figure class="about-portrait about-reveal">
+          <img src="assets/images/portrait-marci-metzger.webp" alt="Marci Metzger smiling in a blue blazer" width="1600"
+            height="2401" loading="lazy" decoding="async" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="bg-white py-20 sm:py-24">
+      <div class="site-container">
+        <h2
+          class="section-heading">
+          Find Your Dream Home
+        </h2>
+      </div>
+    </section>
+
+    <section id="home-search" class="property-search py-20 sm:py-24" aria-labelledby="search-title">
+      <div class="site-container">
+        <form id="property-search-form" class="search-panel" novalidate>
+          <h2 class="search-title" id="search-title">Search Listings</h2>
+
+          <div class="search-grid">
+            <div class="search-field search-field--wide">
+              <label for="search-location">Location</label>
+              <select id="search-location">
+                <option value="" selected>Any</option>
+                <option>Alamo</option>
+                <option>Alton</option>
+                <option>Amargosa Valley</option>
+                <option>Beatty</option>
+                <option>Beryl</option>
+                <option>Blue Diamond</option>
+                <option>Boulder City</option>
+                <option>Brian Head</option>
+                <option>Cal Nev Ari</option>
+                <option>Caliente</option>
+                <option>Cedar City</option>
+                <option>Cold Creek</option>
+                <option>Crystal</option>
+                <option>Duck Creek Village</option>
+                <option>Dyer</option>
+                <option>Elko</option>
+                <option>Ely</option>
+                <option>Goldfield</option>
+                <option>Goodsprings</option>
+                <option>Hatch</option>
+                <option>Henderson</option>
+                <option>Indian Springs</option>
+                <option>Jean</option>
+                <option>Las Vegas</option>
+                <option>Laughlin</option>
+                <option>Logandale</option>
+                <option>Mc Gill</option>
+                <option>Mesquite</option>
+                <option>Moapa</option>
+                <option>Mount Charleston</option>
+                <option>Mountain Springs</option>
+                <option>Nelson</option>
+                <option>North Las Vegas</option>
+                <!-- The inventory records five "Other" labels; their underlying values are unverified. -->
+                <option>Other</option>
+                <option>Other</option>
+                <option>Other</option>
+                <option>Other</option>
+                <option>Other</option>
+                <option>Overton</option>
+                <option>Pahrump</option>
+                <option>Palm Gardens</option>
+                <option>Panaca</option>
+                <option>Parowan</option>
+                <option>Pioche</option>
+                <option>Ruth</option>
+                <option>Sandy Valley</option>
+                <option>Searchlight</option>
+                <option>Tonopah</option>
+              </select>
+            </div>
+
+            <div class="search-field search-field--wide">
+              <label for="search-type">Type</label>
+              <select id="search-type">
+                <option value="" selected>Any</option>
+                <option>Land</option>
+                <option>Residential</option>
+                <option>Lease</option>
+                <option>High Rise Residential</option>
+              </select>
+            </div>
+
+            <div class="search-field search-field--wide">
+              <label for="search-sort">Sort By</label>
+              <select id="search-sort">
+                <option>Newest</option>
+                <option>Oldest</option>
+                <option>Least Expensive to Most</option>
+                <option>Most Expensive to Least</option>
+                <option>Bedrooms (Low to High)</option>
+                <option>Bedrooms (High to Low)</option>
+                <option>Bathrooms (Low to High)</option>
+                <option>Bathrooms (High to Low)</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label for="search-bedrooms">Bedrooms</label>
+              <select id="search-bedrooms">
+                <option value="" selected>Any Number</option>
+                <option>Studio</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+                <option>5+</option>
+                <option>6+</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label for="search-baths">Baths</label>
+              <select id="search-baths">
+                <option value="" selected>Any Number</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+                <option>5+</option>
+                <option>6+</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label for="search-min-price">Min Price</label>
+              <input id="search-min-price" type="number" min="0" step="any" inputmode="decimal"
+                aria-describedby="min-price-error">
+              <p class="search-error" id="min-price-error" aria-live="polite"></p>
+            </div>
+
+            <div class="search-field">
+              <label for="search-max-price">Max Price</label>
+              <input id="search-max-price" type="number" min="0" step="any" inputmode="decimal"
+                aria-describedby="max-price-error">
+              <p class="search-error" id="max-price-error" aria-live="polite"></p>
+            </div>
+
+            <button class="search-submit" type="submit">Search Now</button>
+          </div>
+
+          <p id="search-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="gallery" class="photo-gallery bg-white" aria-labelledby="gallery-title">
+      <div class="bg-white py-20 sm:py-24">
+        <div class="site-container">
+          <h2
+            class="section-heading">
+            Photo Gallery
+          </h2>
+        </div>
+      </div>
+      <div class="site-container">
+
+        <div class="gallery-grid">
+          <button class="gallery-tile gallery-tile--interior" type="button"
+            aria-label="View photo 1: Bright room with a red chair and large windows">
+            <img src="assets/images/gallery-5570-ailanto-14.webp" alt="Bright room with a red chair beside large windows"
+              width="1024" height="682" loading="lazy" decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+
+          <button class="gallery-tile gallery-tile--roseworthy" type="button"
+            aria-label="View photo 2: Aerial view of a residential community, golf course, and mountains">
+            <img src="assets/images/gallery-4460-roseworthy-52.webp"
+              alt="Aerial view of a residential community, golf course, and mountains" width="1024" height="682"
+              loading="lazy" decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+
+          <button class="gallery-tile gallery-tile--courts" type="button"
+            aria-label="View photo 3: Aerial view of sports courts and nearby homes">
+            <img src="assets/images/gallery-4787-beacon-ridge-54.webp"
+              alt="Aerial view of sports courts and nearby homes" width="1024" height="682" loading="lazy"
+              decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+
+          <button class="gallery-tile gallery-tile--mountain-homes" type="button"
+            aria-label="View photo 4: Aerial view of homes with mountains in the distance">
+            <img src="assets/images/gallery-5570-ailanto-45.webp"
+              alt="Aerial view of homes with mountains in the distance" width="1024" height="683" loading="lazy"
+              decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+
+          <button class="gallery-tile gallery-tile--pool-homes" type="button"
+            aria-label="View photo 5: Aerial view of homes and a backyard pool">
+            <img src="assets/images/gallery-5570-ailanto-50.webp" alt="Aerial view of homes and a backyard pool"
+              width="1024" height="682" loading="lazy" decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+
+          <button class="gallery-tile gallery-tile--open-land" type="button"
+            aria-label="View photo 6: Aerial view of homes, open land, and distant mountains">
+            <img src="assets/images/gallery-4787-beacon-ridge-53.webp"
+              alt="Aerial view of homes, open land, and distant mountains" width="1024" height="683" loading="lazy"
+              decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+
+          <button class="gallery-tile gallery-tile--golf" type="button"
+            aria-label="View photo 7: Aerial view of a golf course, pond, homes, and mountains">
+            <img src="assets/images/gallery-4787-beacon-ridge-41.webp"
+              alt="Aerial view of a golf course, pond, homes, and mountains" width="1024" height="683" loading="lazy"
+              decoding="async">
+            <span class="gallery-view-cue" aria-hidden="true">View photo</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <dialog class="gallery-lightbox" id="gallery-lightbox" aria-labelledby="gallery-lightbox-title">
+      <h2 class="sr-only" id="gallery-lightbox-title">Photo viewer</h2>
+
+      <div class="gallery-lightbox__controls">
+        <button class="gallery-lightbox__button" id="gallery-previous" type="button"
+          aria-label="Previous photo">Previous</button>
+        <p id="gallery-count" aria-live="polite">1 of 7</p>
+        <button class="gallery-lightbox__button" id="gallery-next" type="button" aria-label="Next photo">Next</button>
+        <button class="gallery-lightbox__button" id="gallery-close" type="button"
+          aria-label="Close photo viewer">Close</button>
+      </div>
+
+      <img class="gallery-lightbox__image" id="gallery-lightbox-image" src="" alt="">
+    </dialog>
+
+    <section id="services" class="services-section" aria-labelledby="services-title">
+      <div class="bg-white py-20 sm:py-24">
+        <div class="site-container">
+          <h2
+            class="section-heading">
+            Our Services
+          </h2>
+        </div>
+      </div>
+      <div class="site-container">
+        <div class="services-grid">
+          <article class="service-card services-reveal">
+            <img class="service-card__image" src="assets/images/service-stock-12792.webp"
+              alt="Bright living-room detail with a coffee table, books, and a potted plant" width="2160" height="1440"
+              loading="lazy" decoding="async">
+            <div class="service-card__body">
+              <h3>Real Estate Done Right</h3>
+              <p>Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your
+                residence, looking at investment properties, or just curious about the markets, our team ensures you get
+                the best experience possible!</p>
+              <a class="service-card__action" href="tel:2069196886">Call Marci</a>
+            </div>
+          </article>
+
+          <article class="service-card services-reveal">
+            <img class="service-card__image" src="assets/images/service-stock-43920.webp"
+              alt="Contemporary house with a swimming pool and landscaped yard" width="2249" height="1440"
+              loading="lazy" decoding="async">
+            <div class="service-card__body">
+              <h3>Commercial &amp; Residential</h3>
+              <p>Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers?
+                Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find
+                where to put you hard-earned dollars.</p>
+              <a class="service-card__action" href="tel:2069196886">Call Marci</a>
+            </div>
+          </article>
+
+          <article class="service-card services-reveal">
+            <img class="service-card__image" src="assets/images/service-stock-kayaJdA.webp"
+              alt="People smiling and shaking hands across a table with a laptop" width="1254" height="836"
+              loading="lazy" decoding="async">
+            <div class="service-card__body">
+              <h3>Rely on Expertise</h3>
+              <p>If you have questions about affordability, credit, and loan options, trust us to connect you with the
+                right people to get the answers you need in a timely fashion. We make sure you feel confident and
+                educated every step of the way.</p>
+              <a class="service-card__action" href="tel:2069196886">Call Marci</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="bg-white py-20 sm:py-24">
+        <div class="site-container">
+          <h2
+            class="section-heading">
+            Call or Visit
+          </h2>
+        </div>
+      </div>
+      <div class="site-container contact-inner">
+        <h2 id="contact-title" class="contact-title">Let’s talk about your next move.</h2>
+
+        <div class="contact-layout">
+          <form class="contact-form" id="contact-form">
+            <div class="contact-fields">
+              <div class="contact-field">
+                <label for="contact-name">Name</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name">
+              </div>
+
+              <div class="contact-field">
+                <label for="contact-email">Email <span aria-hidden="true">*</span></label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" required>
+              </div>
+
+              <div class="contact-field contact-field--full">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="5"></textarea>
+              </div>
+            </div>
+
+            <button class="contact-submit" type="submit">Send Message</button>
+            <!-- <p class="contact-status" id="contact-status" role="status" aria-live="polite">
+              Form preview: messages are not sent yet.
+            </p> -->
+          </form>
+
+          <aside class="contact-office" aria-labelledby="contact-office-title">
+            <header class="contact-office__header">
+              <span class="contact-office__eyebrow">Your local real estate team</span>
+              <h3 id="contact-office-title">Marci Metzger</h3>
+              <p>The Ridge Realty Group</p>
+            </header>
+
+            <div class="contact-office__block">
+              <h4>Visit our office</h4>
+              <address>
+                3190 HW-160, Suite F<br>
+                Pahrump, Nevada 89048<br>
+                United States
+              </address>
+            </div>
+
+            <div class="contact-office__block">
+              <h4>Office hours</h4>
+              <div class="contact-office__hours">
+                <span>Monday–Sunday</span>
+                <span>8:00 am–7:00 pm</span>
+              </div>
+            </div>
+
+            <p class="contact-office__note">
+              Need another time? Appointments outside office hours are available
+              on request. Just call!
+            </p>
+          </aside>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.286151849159!2d-115.95803852375157!3d36.183922002195764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c6398c2c520eab%3A0xcea32a1d28b4393e!2s3190%20NV-160%2C%20Pahrump%2C%20NV%2089048%2C%20USA!5e0!3m2!1sen!2sph!4v1793094361662!5m2!1sen!2sph"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-container logo-strip" aria-label="Business and organization logos">
+      <div class="logo-strip__viewport">
+        <ul class="logo-strip__sequence">
+          <li class="logo-strip__item">
+            <img src="assets/images/logo-the-ridge-realty-group-circle.webp" alt="The Ridge Realty Group"
+              width="2560" height="2560" loading="lazy">
+          </li>
+          <li class="logo-strip__item">
+            <img src="assets/images/logo-equal-housing.webp" alt="Equal Housing Opportunity"
+              width="1500" height="1507" loading="lazy">
+          </li>
+          <li class="logo-strip__item">
+            <img src="assets/images/logo-realtor-pin.webp" alt="REALTOR®" width="412" height="369"
+              loading="lazy">
+          </li>
+          <li class="logo-strip__item">
+            <img src="assets/images/logo-pahrump-chamber.webp" alt="Pahrump Valley Chamber of Commerce"
+              width="200" height="200" loading="lazy">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="site-container site-footer__inner">
+        <div class="site-footer__groups">
+          <nav class="site-footer__group" aria-label="Footer navigation">
+            <h2>Explore</h2>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Marci</a></li>
+              <li><a href="#home-search">Find a Home</a></li>
+              <li><a href="#gallery">Photo Gallery</a></li>
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <nav class="site-footer__group" aria-label="Social media">
+            <h2>Connect</h2>
+            <ul class="site-footer__social-list">
+              <li><a class="site-footer__social-link" href="https://www.facebook.com/MarciHomes/" target="_blank" rel="noopener noreferrer" aria-label="Visit Marci Metzger on Facebook">
+                <svg class="site-footer__social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.4 21v-8.2h2.8l.4-3.2h-3.2V7.5c0-.9.3-1.5 1.6-1.5h1.7V3.1c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.5v2.1H6.8v3.2h2.9V21h3.7Z"/></svg>
+              </a></li>
+              <li><a class="site-footer__social-link" href="https://www.instagram.com/marcimetzger_theridge/" target="_blank" rel="noopener noreferrer" aria-label="Visit Marci Metzger on Instagram">
+                <svg class="site-footer__social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.8" cy="6.5" r="1.1" fill="currentColor"/></svg>
+              </a></li>
+              <li><a class="site-footer__social-link" href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank" rel="noopener noreferrer" aria-label="Visit Marci Metzger on LinkedIn">
+                <svg class="site-footer__social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M5.2 8.4a2 2 0 1 0 0-4 2 2 0 0 0 0 4ZM3.5 9.8h3.4v10.7H3.5zM9 9.8h3.3v1.5h.1a3.6 3.6 0 0 1 3.2-1.8c3.4 0 4 2.2 4 5.1v5.9h-3.4v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5.3H9z"/></svg>
+              </a></li>
+              <li><a class="site-footer__social-link" href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w" target="_blank" rel="noopener noreferrer" aria-label="Visit Marci Metzger on Yelp">
+                <svg class="site-footer__social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="m11.1 3.1.4 6.4c0 .5-.5.8-.9.5L7 7.2a.7.7 0 0 1-.2-.9l2.2-3.5c.5-.8 2-.7 2.1.3Zm2.5 7.1 5.9-2.5c.5-.2 1 .1 1 .6l-.2 4.1c0 .5-.4.8-.9.7l-5.7-1.5c-.5-.1-.6-1.1-.1-1.4ZM12.5 14l4.8 4.3c.4.3.3.9-.1 1.2l-3.6 1.8c-.5.2-.9 0-1-.5l-1-6c-.1-.5.5-1.1.9-.8Zm-2.2-.4-2.7 5.7c-.2.5-.8.6-1.2.2l-2.7-3.1a.8.8 0 0 1 .3-1.2l5.5-2.5c.5-.2 1.1.4.8.9Zm-.6-2.7-6.2.8c-.5.1-.9-.3-.8-.8l.8-4c.1-.5.6-.7 1-.4l5.3 3.2c.5.3.4 1.1-.1 1.2Z"/></svg>
+              </a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="site-footer__legal">
+          <small>Copyright © 2026 Marci METZGER - All Rights Reserved</small>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
