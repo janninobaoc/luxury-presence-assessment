@@ -343,7 +343,7 @@ body {
   scroll-margin-top: var(--header-offset);
   background-image:
     linear-gradient(rgb(13 17 19 / 18%), rgb(13 17 19 / 18%)),
-    url("../images/background-getty-2223376026.jpg");
+    url("../images/background-getty-2223376026.webp");
   background-position: center;
   background-size: cover;
 }
