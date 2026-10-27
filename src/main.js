@@ -194,31 +194,3 @@ if (contactForm) {
       "Your message was not sent. Form delivery is not connected yet.";
   });
 }
-
-const logoStrip = document.querySelector(".logo-strip");
-
-if (logoStrip) {
-  const toggle = logoStrip.querySelector(".logo-strip__toggle");
-  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  let userPaused = false;
-
-  function syncLogoMotion() {
-    const canAnimate = !reducedMotion.matches;
-    logoStrip.classList.toggle("is-animated", canAnimate);
-    toggle.hidden = !canAnimate;
-  }
-
-  toggle.addEventListener("click", () => {
-    userPaused = !userPaused;
-    logoStrip.classList.toggle("is-user-paused", userPaused);
-    toggle.setAttribute("aria-pressed", String(userPaused));
-    toggle.textContent = userPaused ? "Play logos" : "Pause logos";
-    toggle.setAttribute(
-      "aria-label",
-      userPaused ? "Play logo animation" : "Pause logo animation",
-    );
-  });
-
-  syncLogoMotion();
-  reducedMotion.addEventListener("change", syncLogoMotion);
-}
