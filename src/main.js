@@ -72,7 +72,7 @@ if (searchForm) {
   const maxPrice = searchForm.querySelector("#search-max-price");
   const minError = searchForm.querySelector("#min-price-error");
   const maxError = searchForm.querySelector("#max-price-error");
-  const status = searchForm.querySelector("#search-status");
+  // const status = searchForm.querySelector("#search-status");
 
   function validatePrices() {
     let minMessage = "";
@@ -107,18 +107,18 @@ if (searchForm) {
   minPrice.addEventListener("input", validatePrices);
   maxPrice.addEventListener("input", validatePrices);
 
-  searchForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    status.textContent = "";
+  // searchForm.addEventListener("submit", (event) => {
+  //   event.preventDefault();
+  //   status.textContent = "";
 
-    if (!validatePrices()) {
-      (minPrice.validationMessage ? minPrice : maxPrice).reportValidity();
-      return;
-    }
+  //   if (!validatePrices()) {
+  //     (minPrice.validationMessage ? minPrice : maxPrice).reportValidity();
+  //     return;
+  //   }
 
-    status.textContent =
-      "Live property search is not connected yet. Its destination is awaiting verification.";
-  });
+  //   status.textContent =
+  //     "Live property search is not connected yet. Its destination is awaiting verification.";
+  // });
 }
 
 const galleryGrid = document.querySelector(".gallery-grid");
